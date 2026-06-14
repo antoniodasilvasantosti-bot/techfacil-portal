@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "category_id": {
+      "type": "string"
+    },
+    "subcategory_id": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "Iniciante",
+        "Intermedi\u00e1rio",
+        "Avan\u00e7ado"
+      ]
+    },
+    "reading_time": {
+      "type": "number"
+    },
+    "views": {
+      "type": "number"
+    },
+    "average_rating": {
+      "type": "number"
+    },
+    "total_ratings": {
+      "type": "number"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "cover_image": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "Article"
+}
