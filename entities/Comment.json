@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "article_id": {
+      "type": "string"
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "author_email": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "likes": {
+      "type": "number"
+    }
+  },
+  "required": [],
+  "name": "Comment"
+}
